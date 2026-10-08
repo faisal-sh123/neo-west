@@ -1,19 +1,24 @@
 # NEO WEST Conference — Vercel Ready
 
-Static responsive recreation inspired by the supplied reference image.
+A multi-page static website recreated closely from the supplied NEO WEST reference image.
+
+## Pages
+- `index.html` — Home
+- `about.html` — About
+- `scientific-program.html` — Scientific Program
+- `speakers.html` — Speakers
+- `registration.html` — Registration
+- `sponsors.html` — Sponsors
+- `venue.html` — Venue
+- `contact.html` — Contact
 
 ## Deploy to Vercel
-1. Upload this folder to a GitHub repository.
-2. In Vercel, choose **Add New Project** and import the repository.
-3. Framework preset: **Other**.
-4. Build command: leave empty.
-5. Output directory: `.`
-6. Deploy.
+This is a plain static site. Import the folder/repository into Vercel and use:
+- Framework: Other
+- Build command: empty
+- Output directory: `.`
 
-## Customize
-- Main content: `index.html`
-- Visual design: `style.css`
-- Countdown/menu: `script.js`
-- `reference.png` is the supplied design reference only.
+No Node.js build is required.
 
-Replace the placeholder baby/venue blocks with the original licensed image assets for a closer visual match.
+## Note
+The visual assets are cropped from the user-supplied reference image. Replace them with the original high-resolution/owned assets if available for a pixel-perfect production result.
