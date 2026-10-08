@@ -22,3 +22,14 @@ No Node.js build is required.
 
 ## Note
 The visual assets are cropped from the user-supplied reference image. Replace them with the original high-resolution/owned assets if available for a pixel-perfect production result.
+
+
+## Registration
+The Registration page and QR registration have been removed. The Register Now buttons remain in the design.
+When the Google Form is ready, open `site.js` and set:
+
+```js
+const REGISTRATION_URL = 'YOUR_GOOGLE_FORM_LINK';
+```
+
+The same link will be used by all Register Now buttons.
