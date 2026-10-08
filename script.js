@@ -1,0 +1,4 @@
+const target=new Date('2026-11-19T09:00:00+03:00');
+function tick(){let diff=Math.max(0,target-Date.now());const d=Math.floor(diff/86400000);diff%=86400000;const h=Math.floor(diff/3600000);diff%=3600000;const m=Math.floor(diff/60000);const s=Math.floor(diff/1000)%60;document.getElementById('days').textContent=d;document.getElementById('hours').textContent=String(h).padStart(2,'0');document.getElementById('minutes').textContent=String(m).padStart(2,'0');document.getElementById('seconds').textContent=String(s).padStart(2,'0')}
+tick();setInterval(tick,1000);
+document.querySelector('.menu-btn').addEventListener('click',()=>{const nav=document.querySelector('.topbar nav');nav.style.display=nav.style.display==='flex'?'none':'flex';nav.style.position='absolute';nav.style.top='64px';nav.style.left='0';nav.style.right='0';nav.style.background='#030a22';nav.style.padding='15px';nav.style.flexDirection='column';});
