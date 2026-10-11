@@ -33,3 +33,6 @@ const REGISTRATION_URL = 'YOUR_GOOGLE_FORM_LINK';
 ```
 
 The same link will be used by all Register Now buttons.
+
+
+Updated: sponsor page now displays only the provided Diamond (COMEN NMG), Gold (Masimo), and Silver (Hikma) sponsor artwork. Jeddah First Health Cluster logo asset added. Registration buttons link to the supplied Google Form. Accreditation display updated to 6 CME Hours.

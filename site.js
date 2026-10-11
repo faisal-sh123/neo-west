@@ -11,15 +11,9 @@ const page=document.body.dataset.page; document.querySelectorAll('.nav a').forEa
 
 // Registration button configuration
 // Add the Google Form URL here when it is ready.
-const REGISTRATION_URL = '';
+const REGISTRATION_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSdWDzlXgdVryZSoe3FUt_V2Y_L-dFD9qM6RzIwUVZXDpZ7vSw/viewform';
 document.querySelectorAll('[data-registration-link]').forEach((link) => {
-  link.addEventListener('click', (event) => {
-    if (!REGISTRATION_URL) {
-      event.preventDefault();
-      return;
-    }
-    link.href = REGISTRATION_URL;
-    link.target = '_blank';
-    link.rel = 'noopener noreferrer';
-  });
+  link.href = REGISTRATION_URL;
+  link.target = '_blank';
+  link.rel = 'noopener noreferrer';
 });
