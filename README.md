@@ -7,7 +7,6 @@ A multi-page static website recreated closely from the supplied NEO WEST referen
 - `about.html` — About
 - `scientific-program.html` — Scientific Program
 - `speakers.html` — Speakers
-- `registration.html` — Registration
 - `sponsors.html` — Sponsors
 - `venue.html` — Venue
 - `contact.html` — Contact
